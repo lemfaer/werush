@@ -21,7 +21,7 @@ curl -X GET "http://localhost:8000/api/user/1"
 curl -X POST "http://localhost:8000/api/user" -H 'content-type: application/json' -d '{"name":"Friendly", "email":"me@example.com", "password":"B$123456"}'
 ```
 ```shell
-curl -X POST "http://localhost:8000/api/user/1" -H 'content-type: application/json' -d '{"name": "Punk", "email": "yo@example.com", "password": "54321"}'
+curl -X POST "http://localhost:8000/api/user/1" -H 'content-type: application/json' -d '{"name": "Punk", "email": "yo@example.com", "password": "543210A#"}'
 ```
 
 ### Patch user

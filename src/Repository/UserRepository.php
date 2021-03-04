@@ -93,6 +93,10 @@ class UserRepository extends ServiceEntityRepository
             if ($replace || null !== $modified->getEmail()) {
                 $save->setEmail($modified->getEmail());
             }
+
+            if ($replace || null !== $modified->getPassword()) {
+                $save->setPassword($modified->getPassword());
+            }
         } else {
             $save = $modified;
         }

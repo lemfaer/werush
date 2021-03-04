@@ -101,7 +101,7 @@ class User implements UserInterface
         return $this;
     }
 
-    public function getPassword(): bool
+    public function getPassword(): ?string
     {
         return $this->password;
     }
